@@ -1,0 +1,29 @@
+Connections of ESP12 SoC
+
+1. Pull down GPIO15 for UART Download mode
+
+2. Pull down GPIO0 for flashing the code(Make a jumper for this)
+
+3. Pull up the PW_DN(power down) pin to enable the Chip
+
+4. Have a bypass cap across VCC and GND.
+
+
+Testing:
+
+1. See how they programme D1 Mini.
+
+
+Connections of ESP32-Wroom:
+
+1. GPIO0,GPIO02 -> Pull down for Download Boot
+
+2. 
+
+
+USB Connector - https://www.digikey.in/short/z4h8b7
+
+
+
+
+

@@ -1,0 +1,9 @@
+clockwise  - 10 LEDs' 
+
+Middle - 4 LED's, Gesture sensor
+
+QWIIC Connector Female port(Normal) - https://www.tanotis.com/products/sparkfun-qwiic-jst-connector-smd-4-pin
+
+QWIIC Connector Female port(Vertical) - https://www.robotics.org.za/AF4328
+
+Connecting Wire  - https://robu.in/product/200mm-qwiic-cable-with-1mm-jst-connector-2/

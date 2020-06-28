@@ -6,4 +6,6 @@ QWIIC Connector Female port(Normal) - https://www.tanotis.com/products/sparkfun-
 
 QWIIC Connector Female port(Vertical) - https://www.robotics.org.za/AF4328
 
+JST 6 Pin connector - https://www.digikey.com/short/z98b8r
+
 Connecting Wire  - https://robu.in/product/200mm-qwiic-cable-with-1mm-jst-connector-2/

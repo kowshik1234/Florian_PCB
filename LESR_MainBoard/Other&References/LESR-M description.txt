@@ -1,0 +1,38 @@
+ESP32
+I2C Multiplexer (TCA9548A)
+Voltage regulator from 5 to 3.3 V
+
+8 I2C connectors with VCC, GND, Signal, Clock, connected to the multiplexer (ONE I2C port / GPIO ?? 2x, can CLK be >30?) == 2 GPIO (optional reset = 1 GPIO >30)
+
+8 connectors for the LEDS (INT, DIN // APA102: SIG, CLK) == 16 GPIO
+
+Second I2C port (2 x GPIO) which ones?? == 2 GPIO
+
+2 sensor connectors with VCC, GND, signal ( 3 pin connector, 1 GPIO r/w <30), radar == 2 GPIO
+jumpers for 3.3 or 5V on every sensor output VCC?
+
+USB connector
+DC IN
+use USB for power in but if needs more current, can use the power in adaptor)
+
+50 x 80 (90) mm, 10 mm high
+
+USB 2102
+8 x LESR x 14 LEDs x 60 mA = 6720 mA + 700mA + 8000mA +
+8 x LESR x 14 LEDs x 25 mA = 2800 mA
+
+24V 2000 mA -> 5V == 9600 mA
+
+3 x LESR x 14 LEDs x 25 mA = 1050 mA + ESP32 + sensors
+-----------------------------------------------------------------------------------------
+
+3 pin SMD Vertical connector - https://www.digikey.com/short/z9pph3
+
+2 pin SMD Vertical connector - https://www.sparkfun.com/products/8613
+
+6 pin SMD Vertical connector - https://www.sparkfun.com/products/579
+
+6 pin SMD Side entry RA connector - https://www.sunrom.com/p/6-pin-jst-ph-20mm-smt-header-horizontal-right-angle-side-entry
+
+
+

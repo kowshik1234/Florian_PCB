@@ -8589,43 +8589,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
-<library name="Philbywhizz">
-<description>&lt;b&gt;Philbywhizz Custom Devices&lt;/b&gt;&lt;p&gt;
-Here are my own custom packages, symbols and devices that I have created for my use in Eagle.&lt;p&gt;
-
-Feel free to use them in your own projects.&lt;p&gt;
-
-Web: &lt;a href="www.philbywhizz.com"&gt;www.philbywhizz.com&lt;/a&gt;&lt;/i&gt;&lt;br&gt;
-Email: &lt;a href="mailto:phil.g.howlett@gmail.com"&gt;phil.g.howlett@gmail.com&lt;/a&gt;&lt;br&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="NOCONNECTION">
-<description>A No Connection symbol only&lt;p&gt;
-
-Handy to use on those pins that you want to mark as NC on a schematic.</description>
-<wire x1="-0.508" y1="0.508" x2="0.508" y2="-0.508" width="0.254" layer="97"/>
-<wire x1="0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.254" layer="97"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NOCONNECTION">
-<description>A No Connection symbol only&lt;p&gt;
-
-Handy to use on those pins that you want to mark as NC on a schematic.</description>
-<gates>
-<gate name="G$1" symbol="NOCONNECTION" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8646,7 +8609,6 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="IC" library_urn="urn:adsk.eagle:library:11396274" deviceset="NCP1117ST33T3G" device="" package3d_urn="urn:adsk.eagle:package:10906044/2"/>
@@ -8681,10 +8643,6 @@ Handy to use on those pins that you want to mark as NC on a schematic.</descript
 <part name="IN_2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="https://www.tanotis.com/products/sparkfun-qwiic-jst-connector-smd-4-pin"/>
 <part name="OUT_1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="https://www.tanotis.com/products/sparkfun-qwiic-jst-connector-smd-4-pin"/>
 <part name="OUT_2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="https://www.tanotis.com/products/sparkfun-qwiic-jst-connector-smd-4-pin"/>
-<part name="U$1" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
-<part name="U$2" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
-<part name="U$3" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
-<part name="U$4" library="Philbywhizz" deviceset="NOCONNECTION" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8749,9 +8707,6 @@ Gesture sensor</text>
 <instance part="R3" gate="G$1" x="99.06" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="97.5614" y="35.56" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="102.362" y="35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND1" gate="1" x="50.8" y="30.48" smashed="yes">
-<attribute name="VALUE" x="48.26" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="-17.78" y="25.4" smashed="yes">
 <attribute name="VALUE" x="-20.32" y="22.86" size="1.778" layer="96"/>
@@ -8837,23 +8792,11 @@ Gesture sensor</text>
 <instance part="OUT_2" gate="G$1" x="190.5" y="10.16" smashed="yes">
 <attribute name="NAME" x="185.42" y="18.034" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$1" gate="G$1" x="198.12" y="10.16" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="198.12" y="7.62" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="152.4" y="10.16" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="152.4" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="33.02" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="62.23" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="33.02"/>
-</segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -8873,7 +8816,16 @@ Gesture sensor</text>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="57.15" y1="6.35" x2="57.15" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="6.35" x2="57.15" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="57.15" y1="7.62" x2="57.15" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="62.23" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<junction x="50.8" y="33.02"/>
+<wire x1="50.8" y1="7.62" x2="57.15" y2="7.62" width="0.1524" layer="91"/>
+<junction x="57.15" y="7.62"/>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="GND"/>

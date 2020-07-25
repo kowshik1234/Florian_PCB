@@ -30,9 +30,9 @@ USB 2102
 
 2 pin SMD Vertical connector - https://www.sparkfun.com/products/8613
 
-6 pin SMD Vertical connector - https://www.sparkfun.com/products/579
+6 pin SMD Vertical connector - https://www.digikey.com/short/z92trq
 
-6 pin SMD Side entry RA connector - https://www.sunrom.com/p/6-pin-jst-ph-20mm-smt-header-horizontal-right-angle-side-entry
+6 pin SMD Side entry RA connector - https://www.digikey.com/short/z98b8r
 
 
 

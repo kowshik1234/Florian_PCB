@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : D:/Eagle_projects_directory/Florian_PCB/LESR_MainBoard/Design_Files/LESR_MainBoard/LESR_MainBoard.brd
 
-Start at      : 01:39:41 (30-06-2020)
-End at        : 01:41:47 (30-06-2020)
-Elapsed time  : 00:01:45
+Start at      : 02:21:48 (26-07-2020)
+End at        : 02:22:02 (26-07-2020)
+Elapsed time  : 00:00:02
 
-Signals       :    53   RoutingGrid: 6 mil  Layers: 2
-Connections   :   150   predefined:  0 ( 0 Vias )
+Signals       :    56   RoutingGrid: 12.5 mil  Layers: 2
+Connections   :   165   predefined:  160 ( 84 Vias )
 
-Router memory :   563680
+Router memory :   168128
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:08  00:00:48  00:00:05  00:00:05  00:00:04  00:00:05  00:00:05  00:00:04  00:00:04  00:00:04  00:00:04  00:00:03  00:00:03  00:00:03
-Number of Ripups  :         0       117         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         4         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        59         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        21       150       150       150       150       150       150       150       150       150       150       150       150       150
-Vias              :         0       205       182       157       140       133       129       120       116       109       103        96        96        94
-Resolution        :    14.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0         5         5         5         5         5
+Vias              :         0         2         1         2         2         2
+Resolution        :    97.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 100.0% finished
+Final             : 98.8% finished. Polygons may have fallen apart.
